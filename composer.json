@@ -1,0 +1,23 @@
+{
+  "name": "pc/app-salon-mvc",
+  "description": "Proyecto PHP 8, MVC, SQL, Gulp, SASS",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "MVC\\": "./",
+      "Controllers\\": "./controllers",
+      "Model\\": "./models",
+      "Classes\\": "./classes"
+    }
+  },
+  "authors": [
+    {
+      "name": "SaintsLuis",
+      "email": "santosvluis@outlook.com"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "^6.7",
+    "vlucas/phpdotenv": "^5.5"
+  }
+}
